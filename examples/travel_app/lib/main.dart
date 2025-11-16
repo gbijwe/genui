@@ -68,7 +68,7 @@ class _TravelAppBody extends StatelessWidget {
   Widget build(BuildContext context) {
     final Map<String, StatefulWidget> tabs = {
       'Travel': TravelPlannerPage(contentGenerator: contentGenerator),
-      'Widget Catalog': const CatalogTab(),
+      // 'Widget Catalog': const CatalogTab(),
     };
     return DefaultTabController(
       length: tabs.length,
