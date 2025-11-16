@@ -26,7 +26,7 @@ class _CatalogGalleryAppState extends State<CatalogGalleryApp> {
 
     // Excluded, because something is wrong with image:
     // NetworkImageLoadException was thrown resolving an image codec...
-    CoreCatalogItems.image,
+    // CoreCatalogItems.image,
   ]);
 
   @override

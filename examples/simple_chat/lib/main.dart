@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Simple Chat',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData.dark(),
       home: const ChatScreen(),
     );
   }
@@ -92,6 +92,7 @@ class _ChatScreenState extends State<ChatScreen> {
         return GoogleGenerativeAiContentGenerator(
           catalog: catalog,
           systemInstruction: systemInstruction,
+          modelName : 'models/gemini-2.5-pro',
           apiKey: getApiKey(),
         );
       }(),

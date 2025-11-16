@@ -100,7 +100,7 @@ final modal = CatalogItem(
           "component": {
             "Text": {
               "text": {
-                "literalString": "This is a modal."
+                "literalString": "This is a modal. Please click mee!!"
               }
             }
           }
