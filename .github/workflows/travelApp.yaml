@@ -1,0 +1,23 @@
+name: Travel App Deploy
+
+on: 
+    push: 
+        branches: [ main ]
+
+defaults: 
+    run: 
+        working-directory: ../../examples/travel_app
+
+permissions: 
+    contents: write
+
+jobs: 
+    build: 
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v4
+            - uses: subosito/flutter-action@v2
+            - uses: bluefireteam/flutter-gh-pages@v9
+              with: 
+                baseHref: /genui
