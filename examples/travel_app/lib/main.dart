@@ -26,7 +26,7 @@ void main() async {
   runApp(const TravelApp());
 }
 
-const _title = 'Agentic Travel Inc';
+const _title = 'Agentic Travel Planner';
 
 /// The root widget for the travel application.
 ///
