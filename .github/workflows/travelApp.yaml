@@ -4,10 +4,6 @@ on:
     push: 
         branches: [ main ]
 
-defaults: 
-    run: 
-        working-directory: ../../examples/travel_app
-
 permissions: 
     contents: write
 
@@ -21,3 +17,4 @@ jobs:
             - uses: bluefireteam/flutter-gh-pages@v9
               with: 
                 baseHref: /genui
+              working-directory: examples/travel_app
