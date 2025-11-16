@@ -17,4 +17,4 @@ jobs:
             - uses: bluefireteam/flutter-gh-pages@v9
               with: 
                 baseHref: /genui
-              working-directory: examples/travel_app
+                workingDir: examples/travel_app
