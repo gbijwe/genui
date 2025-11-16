@@ -16,5 +16,5 @@ jobs:
             - uses: subosito/flutter-action@v2
             - uses: bluefireteam/flutter-gh-pages@v9
               with: 
-                baseHref: /genui
+                baseHref: /genui/
                 workingDir: examples/travel_app
